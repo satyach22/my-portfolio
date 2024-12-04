@@ -1,0 +1,123 @@
+/* General Styles for Contact Page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    color: #ff9800;
+}
+
+/* Container for Contact Form */
+.contact {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-info {
+    margin-bottom: 30px;
+}
+
+.contact-info h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-info p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* Contact Details */
+.contact-details {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.contact-details h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-details p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+.contact-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-details ul li {
+    margin: 5px 0;
+}
+
+.contact-details ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-details ul li a:hover {
+    color: #ff9800;
+}
+
+/* Styling for the Google Form Embed */
+.google-form-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.google-form-container iframe {
+    width: 100%;
+    max-width: 640px;
+    height: 780px;
+    border: none;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+}
